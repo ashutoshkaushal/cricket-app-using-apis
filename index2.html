@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title>Cricket</title>
+        <link rel="stylesheet" href="style2.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+	<div class="master">
+            <section id="nav-bar">
+                <<nav class="navbar navbar-expand-sm">
+				  <ul class="navbar-nav" >
+					<li class="nav-item">
+					  <a class="nav-link" href="index.html">HOME</a>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link" href="index2.html"><input type="button"  value="CRICKET UPDATE" id="firstbut"></a>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link" href="map.html">MAP</a>
+					</li>
+					<li class="nav-item">
+					  <a class="nav-link" href="weather.html">WEATHER</a>
+					</li>
+				  </ul>
+				</nav>
+             </section>
+
+        <div id="content" style="text-align: center;">
+           <form>
+              <button  id="newM" class="but1" onclick="currentMatch()">CURRENT MATCHES</button><br><br>
+              <button  id="oldM" class="but1" onclick="oldMatch()">OLD MATCHES</button><br><br>
+              <button  id="cricSc" class="but1" onclick="matchCal()">MATCH CALENDER</button><br><br>
+              <button  id="cricSc" class="but1" onclick="enterTheMatchCode()">MATCH SCORE</button><br><br>
+            </form>
+        </div>
+       
+        <div id="modal">
+                <form >
+                <input type="text" id="search" placeholder="Enter Player NAME">
+                <button value="Player" id="player" onclick="enterTheCode()">Search</button><br><br>
+                </form>
+        </div>
+       
+       <center>        
+            <div id="container">
+             
+            </div>
+        </center>
+        
+    
+    </div>
+        <script src="jQ.js"></script>
+    </body>
+</html>

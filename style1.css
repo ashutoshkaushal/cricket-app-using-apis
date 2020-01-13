@@ -1,0 +1,74 @@
+body{
+    background-image: url(cricket.jpg);
+	background-size:800px;
+	background-position:center;
+	background-repeat:no-repeat;
+    font-family: 'Helvetica Neue', sans-serif !important;
+}
+#firstbut{
+	color:blue;
+	background-color:transparent;
+	border: none;
+	cursor:pointer;
+	}
+#firstbut:hover{
+    border:1px solid #3965E1;
+    color:#DB2B23;
+    background-color:transparent;
+}
+
+.text1{
+    margin-bottom: 15px;
+    position: relative;
+    animation: text 3s 1;
+    text-shadow: 0 3px 2px #ccc;
+}
+.text2{
+    text-shadow: 0 3px 2px #ccc;
+}
+
+footer{
+    background-color: rgba(0,0,0,0.35);
+	opacity: 0.8;
+    padding:10px 10px 0px 10px;
+    border-radius: 30px; 
+    color: white;
+    margin-bottom: 0px;
+    margin-top: 550px;
+    height:130px;
+	width:1200px;
+}
+footer li{
+    float: left;
+    margin-left: 35px;
+    margin-top: -5px;
+}
+
+#left{
+    width: 50%;
+    height: 7%;
+}
+#right{
+    width: 30%;
+    margin-left: 900px;
+}
+h4{
+     margin-left: 70px !important; 
+     margin-top: -20px;
+}
+@keyframes text{
+    0%{
+        color: #DB2B23;
+        margin-bottom: -40px;
+    }
+    30%{
+        letter-spacing: 15px;
+        margin-bottom: -40px;
+    }
+    85%{
+        letter-spacing: 8px;
+        margin-bottom: -40px;
+    }
+}
+
+
